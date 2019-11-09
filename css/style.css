@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  transition: all 0.1s ease-in;
+}
+
+html {
+  background-color: #2793cb;
+  border: 20px solid #227cab;
+  height: 100%;
+}
+
+h1 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: white;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+header .wi-sunrise {
+  color: white;
+  font-size: 25px;
+}
+
+body {
+  width: 55%;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.grid {
+  width: 100%;
+  font-size: 0px;
+  margin: 0 auto;
+  border: 2px solid white;
+  background-color: white;
+}
+
+.grid:hover > li {
+  opacity: 0.6;
+}
+.grid li:hover {
+  opacity: 1;
+}
+
+.col-1-1 {
+  display: inline-block;
+  width: 100%;
+  height: 30%;
+  border: 2px solid white;
+  padding: 5px;
+}
+
+.col-1-2 {
+  display: inline-block;
+  width: 50%;
+  height: 20%;
+  border: 2px solid white;
+  padding: 5px;
+}
+
+.col-1-4 {
+  display: inline-block;
+  width: 25%;
+  height: 20%;
+  border: 2px solid white;
+  padding: 5px;
+}
+
+.lisbon {
+  background-color: #2793cb;
+}
+
+.paris {
+  background-color: #24bdcb;
+}
+
+.belgrade {
+  background-color: #986f97;
+}
+
+.moscow {
+  background-color: #c75444;
+}
+
+.tel {
+  background-color: #e77145;
+}
+
+.cair {
+  background-color: #ffcb5d;
+}
+
+.ny {
+  background-color: #93c395;
+}
+
+.nd {
+  background-color: #5e9494;
+}
+
+.san {
+  background-color: #cf7294;
+}
+
+.tokyo {
+  background-color: #298d64;
+}
+
+.sydney {
+  background-color: #646999;
+}
+
+.wi {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.7);
+  vertical-align: bottom;
+}
+
+.city {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.temp {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  margin-top: -5px;
+}
+
+footer p {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 14px;
+  color: white;
+}
